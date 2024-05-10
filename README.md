@@ -20,10 +20,9 @@ Malaria dataset of 27,558 cell images with an equal number of parasitized and un
 - **Step 6:** We evaluate the trained model's performance using the testing data, generating a classification report and confusion matrix to assess accuracy and potential misclassifications.
 
 ## PROGRAM
-```
+```py
  Name: PRAVINRAJJ G.K
  Register Number: 21222224080
- to share the GPU resources for multiple sessions
 
 import tensorflow as tf
 from tensorflow.compat.v1.keras.backend import set_session
