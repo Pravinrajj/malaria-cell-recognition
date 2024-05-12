@@ -22,7 +22,7 @@ Malaria dataset of 27,558 cell images with an equal number of parasitized and un
 ## PROGRAM
 ```py
  Name: PRAVINRAJJ G.K
- Register Number: 21222224080
+ Register Number: 212222240080
 
 import tensorflow as tf
 from tensorflow.compat.v1.keras.backend import set_session
@@ -135,8 +135,6 @@ results = model.fit(train_image_gen,epochs=3,validation_data=test_image_gen)
 
 model.save('cell_model.h5')
 losses = pd.DataFrame(model.history.history)
-print("DEEPAK RAJ S")
-print("212222240023")
 losses[['loss','val_loss']].plot()
 
 model.metrics_names
