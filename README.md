@@ -135,7 +135,7 @@ results = model.fit(train_image_gen,epochs=3,validation_data=test_image_gen)
 
 model.save('cell_model.h5')
 losses = pd.DataFrame(model.history.history)
-print("PRAVINRAJJ G.K",\n,212222240080)
+print("PRAVINRAJJ G.K : 212222240080")
 losses[['loss','val_loss']].plot()
 
 model.metrics_names
@@ -144,7 +144,7 @@ pred_probabilities = model.predict(test_image_gen)
 test_image_gen.classes
 
 predictions = pred_probabilities > 0.5
-print("PRAVINRAJJ G.K",\n,212222240080)
+print("PRAVINRAJJ G.K : 212222240080")
 print(classification_report(test_image_gen.classes,predictions))
 confusion_matrix(test_image_gen.classes,predictions)
 
