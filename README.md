@@ -143,6 +143,7 @@ pred_probabilities = model.predict(test_image_gen)
 test_image_gen.classes
 
 predictions = pred_probabilities > 0.5
+print("PRAVINRAJJ G.K",\n,212222240080)
 print(classification_report(test_image_gen.classes,predictions))
 confusion_matrix(test_image_gen.classes,predictions)
 
