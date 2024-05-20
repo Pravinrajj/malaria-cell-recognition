@@ -152,8 +152,7 @@ confusion_matrix(test_image_gen.classes,predictions)
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
-
-![image](https://github.com/DEEPAK2200233/malaria-cell-recognition/assets/118707676/8d085a1a-d62d-4922-a534-366291307796)
+![image](https://github.com/Pravinrajj/malaria-cell-recognition/assets/117917674/c5ffd847-3a93-48f7-ad07-7eb8a75539b4)
 
 ### Classification Report
 
@@ -164,8 +163,8 @@ confusion_matrix(test_image_gen.classes,predictions)
 ![image](https://github.com/Ashwinkumar-03/malaria-cell-recognition/assets/118663725/0942328b-8d53-49d8-ab7e-af8cdcaa42b9)
 
 ### New Sample Data Prediction
+![image](https://github.com/Pravinrajj/malaria-cell-recognition/assets/117917674/ea79367e-0cbd-4726-87e3-37d10a9acd13)
 
-![image](https://github.com/Ashwinkumar-03/malaria-cell-recognition/assets/118663725/f18d28f1-4664-4d4f-a84f-5b8980b62431)
 
 ## RESULT:
 Thus a deep neural network for Malaria infected cell recognition and to analyze the performance is created using tensorflow.
